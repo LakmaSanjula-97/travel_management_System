@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    app:cardElevation="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/route"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:text="Route"
+            android:textColor="#1F3760"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/from1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/route"
+            android:text="From"
+            android:textColor="#1F3760"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/troute"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_alignBottom="@+id/route"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="109dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="187dp"
+            android:layout_marginBottom="17dp"
+            android:text="TextView"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/endtime"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_alignBottom="@+id/route"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="114dp"
+            android:layout_marginTop="201dp"
+            android:layout_marginEnd="182dp"
+            android:layout_marginBottom="-182dp"
+            android:text="TextView"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tfrom"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_alignBottom="@+id/route"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="186dp"
+            android:layout_marginBottom="-32dp"
+            android:text="TextView"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stimes"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_alignBottom="@+id/route"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="113dp"
+            android:layout_marginTop="149dp"
+            android:layout_marginEnd="183dp"
+            android:layout_marginBottom="-128dp"
+            android:text="TextView"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tto"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_alignBottom="@+id/route"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="109dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="187dp"
+            android:layout_marginBottom="-79dp"
+            android:text="TextView"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/to1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/from1"
+            android:text="To"
+            android:textColor="#1F3760"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stime"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/to1"
+            android:text="Start Time"
+            android:textColor="#1F3760"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/end"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/stime"
+            android:text="End Time"
+            android:textColor="#1F3760"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

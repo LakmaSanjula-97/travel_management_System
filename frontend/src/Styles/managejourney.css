@@ -1,0 +1,222 @@
+#headertext{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-left: 8cm;
+}
+#form_journey{
+    border: solid rgb(207, 205, 205) 1px;
+    padding: 10px 50px 30px 50px;
+    margin-top: 1cm;
+    margin-left: 9cm;
+}
+
+
+.form_journey form{
+    max-width: 650px;
+    min-width: 290px;
+    width: 100%;
+    margin: 15px 30px;
+    margin-top: 2.5cm;
+    border-radius: 5px;
+}
+.form_journey form .row{
+    width: 100%;
+    margin: 15px 0;
+}
+
+.form_journey form .row :focus{
+    
+    border-color: #0b0744;
+}
+
+.form_journey form input, textarea{
+    width: 100%;
+    min-height: 40px;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+.form_journey form button{
+    width: 170px;
+    height: 40px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-left: 2.1cm;
+    margin-top: 0.5cm;
+    border-radius: 6px;
+    border:2px solid#020e1b;
+}
+
+.form_journey form button:hover {
+    background: #051931;
+    color: white;
+    
+  }
+
+
+#image1{
+    margin-top: -18cm;
+    margin-left: 30cm;
+    width: 8cm;
+    height: 14.5cm;
+    border-radius: 8px;
+}
+
+/* view table of bu routes */
+
+#journey_table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    border: 2px solid rgb(206, 206, 206);
+    
+    
+  }
+  
+
+#journey_table td, #journey_table th {
+    border: 1px solid rgb(189, 189, 189);
+    padding: 8px;
+  }
+  
+ 
+  
+#journey_table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+#btn1{
+      width: 100px;
+      height: 33px;
+      background-color: blue;
+      border-color: blue;
+      border-radius: 50px 0px 0px 50px;
+  }
+.blackiconcolor{
+      color: white;
+     
+  }
+#btn2{
+    width: 100px;
+    height: 33px;
+    background-color: rgb(255, 0, 0);
+    border-color: rgb(255, 0, 0);
+    border-radius: 0px 50px 50px 0px;
+    color: white;
+}
+
+#btn1:hover {
+    background-color: rgb(0, 0, 105);
+    border-color: rgb(0, 0, 105);
+  }
+  
+#btn2:hover {
+    background-color: rgb(145, 0, 0);
+    border-color: rgb(145, 0, 0);
+  }
+
+#table1{
+      margin-left: 10cm;
+      margin-top: 0.5cm;
+      
+  }
+
+#text1{
+      font-weight: bold;
+      font-size: 20px;
+      margin-left:2cm;
+      
+     
+      
+  }
+#iconimage{
+    width: 35px;
+    margin-top: -1cm;
+    margin-left: 0.5cm;
+    margin-top: 1cm;
+}
+#btn3{
+    width: 130px;
+    height: 33px;
+    margin-top: -1.5cm;
+    margin-left: 34cm;
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 0, 105);
+    border-color: rgb(0, 0, 105);    
+}
+
+#btn3:hover {
+    background-color: rgb(5, 5, 58);
+    border-color: rgb(5, 5, 58);
+  }
+
+#topic{
+    margin-top: 2cm;
+    margin-left: 8cm;
+}
+#hr{
+    border-top: 1px solid rgb(150, 150, 150);
+}
+
+/* report css part */
+
+.report_journey_table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    border: 2px solid rgb(206, 206, 206);
+    
+    
+  }
+  
+
+.report_journey_table td, .report_journey_table th {
+    border: 1px solid rgb(189, 189, 189);
+    padding: 8px;
+  }
+  
+ 
+  
+.report_journey_table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+
+#reporthead1 th {
+    background-color: #0b0744;
+    color: white;
+}
+
+.btn4{
+    width: 155px;
+    height: 33px;
+    margin-top: 0.5cm;
+    margin-left: 33.5cm;
+    color: white;
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(202, 0, 0);
+    border-color: rgb(202, 0, 0);    
+}
+
+.btn4:hover {
+    background-color: rgb(77, 0, 0);
+    border-color: rgb(77, 0, 0);
+    border-radius: 50px 50px 50px 50px;
+  }
+#image10{
+    margin-top: -15cm;
+    margin-left: 30cm;
+    width: 8cm;
+    height: 12cm;
+    border-radius: 8px;
+}

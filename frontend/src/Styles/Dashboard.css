@@ -1,0 +1,90 @@
+#dash_btn1{
+    margin-left: 10cm;
+    margin-top: 1.5cm;
+    width: 6cm;
+    height: 3cm;
+    border: 1px solid rgb(255, 51, 51);
+    box-shadow: 5px 10px #e7e7e7;
+    border-radius: 9px;
+    background-color: white;
+}
+.imgcolor1{
+    color: rgb(255, 51, 51);
+    margin-top: 10px;
+}
+
+#dash_link1{
+
+    color:rgb(255, 255, 255);
+    width: 6cm;
+    margin-top: 0.2cm;
+    margin-left: -8px;
+    background-color: rgb(255, 51, 51);
+    border-radius: 50px 50px 50px 50px;
+    border-color: rgb(255, 51, 51);
+
+}
+
+#dash_btn2{
+    margin-left: 20.5cm;
+    margin-top: -3cm;
+    position: absolute;
+    width: 6cm;
+    height: 3cm;
+    border: 1px solid rgb(255, 153, 0);
+    box-shadow: 5px 10px #e7e7e7;
+    border-radius: 9px;
+    background-color: white;
+}
+
+.imgcolor2{
+    color: rgb(255, 153, 0);
+    margin-top: 10px;
+}
+#dash_link2{
+
+    color:rgb(255, 255, 255);
+    width: 6cm;
+    margin-top: 0.2cm;
+    margin-left: -8px;
+    background-color: rgb(255, 153, 0);
+    border-radius: 50px 50px 50px 50px;
+
+}
+
+#dash_btn3{
+    margin-left: 31cm;
+    margin-top: -3cm;
+    position: absolute;
+    width: 6cm;
+    height: 3cm;
+    border: 1px solid rgb(77, 121, 255);
+    box-shadow: 5px 10px #e7e7e7;
+    border-radius: 9px;
+    background-color: white;
+}
+
+.imgcolor3{
+    color: rgb(77, 121, 255);
+    margin-top: 10px;
+}
+#dash_link3{
+
+    color:rgb(255, 255, 255);
+    width: 6cm;
+    margin-top: 0.2cm;
+    margin-left: -8px;
+    background-color: rgb(77, 121, 255);
+    border-color: rgb(77, 121, 255);
+    border-radius: 50px 50px 50px 50px;
+
+}
+#dash_btn1:hover{
+    background-color: rgb(255, 230, 230);
+}
+#dash_btn2:hover{
+    background-color: rgb(255, 242, 230);
+}
+#dash_btn3:hover{
+    background-color: rgb(230, 249, 255);
+}

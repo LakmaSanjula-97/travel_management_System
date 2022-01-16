@@ -1,0 +1,148 @@
+#headertext1{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-left: 8cm;
+}
+#form_bus{
+
+    border: solid rgb(207, 205, 205) 1px;
+
+    padding: 10px 50px 30px 50px;
+    margin-top: 1cm;
+    margin-left: 8cm;
+}
+
+
+.form_bus form{
+
+    max-width: 650px;
+
+    min-width: 290px;
+    width: 100%;
+    margin: 15px 30px;
+    margin-top: 2.5cm;
+    border-radius: 5px;
+}
+.form_bus form .row{
+    width: 100%;
+    margin: 15px 0;
+}
+
+.form_bus form .row :focus{
+    border-color: #072344;
+   
+}
+
+.form_bus form input, textarea{
+    width: 100%;
+    min-height: 40px;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+.form_bus form button{
+    width: 170px;
+    height: 40px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-left: 2.1cm;
+
+    margin-top: 0.5cm;
+    border-radius: 6px;
+    border:2px solid#020e1b;
+}
+
+.form_bus form button:hover {
+    background: #051931;
+    color: white;
+    
+  }
+
+
+
+#image{
+    margin-top: -16cm;
+    margin-left: 29cm;
+    width: 8cm;
+    height: auto;
+}
+
+/* view table of bu routes */
+
+#bus_table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    border: 2px solid rgb(206, 206, 206);
+    
+    
+  }
+  
+
+  #bus_table td, #bus_table th {
+    border: 1px solid rgb(189, 189, 189);
+    padding: 8px;
+  }
+  
+ 
+  
+  #bus_table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  #btn{
+      width: 100px;
+      height: 33px;
+      background-color: blue;
+      border-color: blue;
+      border-radius: 50px 0px 0px 50px;
+  }
+  .blackiconcolor{
+      color: white;
+     
+  }
+  #btndel{
+    width: 100px;
+    height: 33px;
+    background-color: rgb(255, 0, 0);
+    border-color: rgb(255, 0, 0);
+    border-radius: 0px 50px 50px 0px;
+    color: white;
+}
+
+#btn:hover {
+    background-color: rgb(0, 0, 105);
+    border-color: rgb(0, 0, 105);
+  }
+  
+  #btndel:hover {
+    background-color: rgb(145, 0, 0);
+    border-color: rgb(145, 0, 0);
+  }
+
+  #table{
+      margin-left: 10cm;
+      margin-top: 3cm;
+      
+  }
+
+  #text{
+      font-weight: bold;
+      font-size: 20px;
+      margin-left: 1.5cm;
+      margin-top: -1cm;
+      position: relative;
+  }
+#iconimage1{
+    width: 35px;
+    margin-top: -1cm;
+    margin-left: 0.5cm;
+
+}

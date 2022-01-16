@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "375366391752",
+    "project_id": "travellanka-e6979",
+    "storage_bucket": "travellanka-e6979.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375366391752:android:cd170550c299af70b2d2fd",
+        "android_client_info": {
+          "package_name": "com.example.travelapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375366391752-9km3o8nht46m5er38qc2rfru4ca0k0k9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.travelapp",
+            "certificate_hash": "08b79c1a54bbd9cf99d28d2acfd3d0d41008450a"
+          }
+        },
+        {
+          "client_id": "375366391752-vje1cv4k0u847v8t9q7bik4qap40ru51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPR6v7e-FUykMtOaL2RiL1-ro0Oi2es38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375366391752-vje1cv4k0u847v8t9q7bik4qap40ru51.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
